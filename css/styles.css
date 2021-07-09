@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import "reset.css";
+@import "variable.css";
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+/* screens */
+@import "screens/index_form.css";
+@import "screens/friends.css";
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+.svg-inline--fa {
+  color: #2e363e;
+  /* icon에 css를 줄때는 개발자모드로 들어가서 svg class에 띄어쓰기 안한 가장 앞에 
+문구를 따오면 css가 적용된다. */
+}

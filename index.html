@@ -5,26 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Joldae's talk</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__columm">
             <span>No Service</span>                
             <i class="fas fa-wifi"></i> 
             <!-- wi-fi icon -->
         </div>
         <div class="status-bar__columm">
-            <span>8:45</span>
+            <span>8:45</span> 
         </div>
         <div class="status-bar__columm">
             <span>77%</span>
-            <i class="fas fa-battery-three-quarters"></i>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
             <!-- Battert icon -->
             <i class="fas fa-bolt"></i>
             <!-- bolt icon -->
         </div>
-        
-    </div>
+    </div>    <!-- status-bar div -->
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Joldae's talk</h1>
+        <p class="welcome-header__text">
+            If you have a Joldae's talk Account,<br>log in with your email or phone number
+        </p>
+    </header>
+
+    <form id="login-form" action="friends.html" method="GET">
+        <input name="username" required type="text" placeholder="Email or phone number">
+        <input name="password" required type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+        <a href="#">Find Joldae Account or Password</a>
+    </form>
+
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,52 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box; /* 내가 패딩을 줘도 박스사이즈를 늘리지 말아줘 코드 */
+  background-color: var(--gray);
+  padding: 13px 35px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2f373d;
+  position: relative;
+  /* .nav__notification이 .nav__link의 기준 안에서 움직이도록 설정된 부모 */
+}
+
+.nav__dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 28px;
+  left: 30px;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  /* 이거는 span이라서 적용이 안된다. 블록엘리먼트로 만들어 줘야 한다.*/
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  position: absolute; /* 엘리먼트들을 겹칠수 있게 만들어줌 */
+  /* position:absoliute; 이 코드는 가장 가까운 position:relative;
+  코드를 가진 부모 엘리먼트 기준 안에서 그 위치가 정해진다. */
+  left: 22px;
+  bottom: 17px;
+}

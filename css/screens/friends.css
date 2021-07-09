@@ -1,0 +1,12 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: var(--gray);
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#friends-display-link .svg-inline--fa {
+  color: rgba(0, 0, 0, 0.3);
+}
