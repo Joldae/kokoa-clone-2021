@@ -1,0 +1,50 @@
+.chats-plus {
+  position: relative;
+}
+
+.chats-plus__plus {
+  width: 6px;
+  height: 6px;
+  padding: 2.2px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6px;
+  right: 1px;
+  background-color: white;
+  color: black;
+}
+.user-component__column__chats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.user-component__column__chats span {
+  color: var(--gray_for_text);
+  font-size: 15px;
+}
+
+#chats__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.go-to-chat-room {
+  transition: color 0.3s;
+}
+.go-to-chat-room:hover {
+  color: #d8edf8;
+}

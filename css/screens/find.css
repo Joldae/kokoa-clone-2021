@@ -1,0 +1,38 @@
+.screen-header__cog {
+  position: relative;
+}
+.find-recommanded-friends {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.find-recommanded-friends__title {
+  font-size: 14px;
+  color: var(--gray_for_text);
+  padding-top: 15px;
+}
+.find-recommanded-friends__mungoo {
+  display: block;
+  margin: 100px 0px;
+  color: var(--gray_for_text);
+  text-align: center;
+}
+
+.open-chat__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray_for_text);
+  font-size: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.18);
+  padding-top: 20px;
+}
+.open-chat__title span:first-child {
+  font-weight: 500;
+}
+
+.open-chat__title span:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+.svg-inline--fa.fa-w-10 {
+  color: rgba(0, 0, 0, 0.3);
+}

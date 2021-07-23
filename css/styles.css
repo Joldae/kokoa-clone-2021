@@ -5,12 +5,24 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/namecard.css";
+@import "components/cog_dot.css";
+@import "components/icon-row.css";
+@import "components/no-mobile.css";
 /* screens */
 @import "screens/index_form.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat-room.css";
+
 body {
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+  height: 150vh;
 }
 .svg-inline--fa {
   color: #2e363e;

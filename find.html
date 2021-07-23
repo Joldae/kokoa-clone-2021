@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find screen for Joldae's talk</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__columm">
+            <span>No Service</span>                
+            <i class="fas fa-wifi"></i> 
+            <!-- wi-fi icon -->
+        </div>
+        <div class="status-bar__columm">
+            <span>8:45</span> 
+        </div>
+        <div class="status-bar__columm">
+            <span>77%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <!-- Battert icon -->
+            <i class="fas fa-bolt"></i>
+            <!-- bolt icon -->
+        </div>
+    </div>    <!-- status-bar div -->
+
+    <!-- 상단 Find 돋보기-설정 칸 -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span>
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+            <a href="settings.html">
+
+            <span class="screen-header__cog cog-father">
+                <i class="fas fa-cog fa-lg"></i>
+                <span class="cog__dot"></span>
+            </span>
+            </a>
+        </div>
+    </header>
+    <!-- 상단 Find 돋보기-설정 칸 -->
+
+    <main class="find-screen">
+        <div class="icon-row__div">
+            <span class="icon-row__column">
+                <i class="fas fa-qrcode fa-lg"></i>
+                <span class="icon-row__bottom">QR Code</span>    
+            </span>
+            <span class="icon-row__column">
+                <i class="far fa-address-book fa-lg"></i>                
+                <span class="icon-row__bottom icon-row__column__diftype">Add by <br>Contacts</span>  
+            </span>
+            <span class="icon-row__column">
+                <i class="fas fa-fingerprint fa-lg"></i>
+                <span class="icon-row__bottom">Add by ID</span>  
+            </span>
+            <span class="icon-row__column">
+                <i class="far fa-envelope fa-lg"></i>
+                <span class="icon-row__bottom">Invite</span>  
+            </span>
+        </div>
+
+        <div class="find-recommanded-friends">
+            <h6 class="find-recommanded-friends__title">Recommanded friends</h6>
+            <span class="find-recommanded-friends__mungoo">You have no recommended firends.</span>
+        </div>
+
+        <div class="open-chat">
+            <div class="open-chat__title">
+                <span>Open chat</span>
+                <span>
+                    Go to Open chat Home
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </span>
+            </div>
+
+            <!-- 아이유 네임카드 -->
+            <div class="namecard">
+                <div class="namecard__card">
+                    <span class="namecard__column">
+                        <div class="namecard__title namecard__margin">
+                            #IU
+                        </div>
+                        <div class="namecard__hashtag namecard__margin">
+                            #아이유#이지금#치키치키
+                        </div>
+                        <div class="namecard__status namecard__margin">
+                            <img class="namecard__smallimg" src="screenshots/iu_squared.png" width="18px" height="18px" alt="">
+                            <span class="namecard__members">802 members |</span>
+                            <span class="namecard__pinktext">Active</span> 
+                        </div>    
+                    </span>
+                    <span class="namecard__column">
+                        <img class="namecard__bigimg" src="screenshots/iu_squared.png" alt="" width="80px" height="80px">
+                        <span class="namecard__bigimg__heart">♥︎ 299</span>
+                    </span>
+                </div>
+            </div>
+            <!-- 아이유 네임카드 -->
+
+            <!-- 효정 네임카드 -->
+            <div class="namecard">
+                <div class="namecard__card">
+                    <span class="namecard__column">
+                        <div class="namecard__title namecard__margin">
+                            #YUNA
+                        </div>
+                        <div class="namecard__hashtag namecard__margin">
+                            #유나#쁘걸#단발좌
+                        </div>
+                        <div class="namecard__status namecard__margin">
+                            <img class="namecard__smallimg" src="screenshots/danbal.png" width="18px" height="18px" alt="">
+                            <span class="namecard__members">299 members |</span>
+                            <span class="namecard__pinktext">Active</span> 
+                        </div>    
+                    </span>
+                    <span class="namecard__column">
+                        <img class="namecard__bigimg" src="screenshots/danbal.png" alt="" width="80px" height="80px">
+                        <span class="namecard__bigimg__heart">♥︎ 333</span>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+   
+
+            
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification">3</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search-plus fa-2x"></i>                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+<script src="https://kit.fontawesome.com/3fa9ce1ab6.js" crossorigin="anonymous"></script>
+</body>
+</html>

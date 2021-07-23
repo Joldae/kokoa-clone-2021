@@ -1,0 +1,90 @@
+.namecard__card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.namecard__title {
+  font-size: 18px;
+  display: inline;
+}
+
+.namecard__title:hover {
+  color: gray;
+}
+
+.namecard__status {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+.namecard__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.namecard__hashtag {
+  color: var(--gray_for_text);
+  font-size: 15px;
+}
+
+.namecard__margin {
+  margin: 3px 0px;
+}
+
+.namecard__smallimg {
+  border-radius: 10px;
+}
+
+.namecard__bigimg {
+  border-radius: 9px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.namecard__bigimg__heart {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  font-size: 11px;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  top: 55px;
+  left: 35px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.namecard__bigimg__heart:hover {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
+
+.namecard__members {
+  color: var(--gray_for_text);
+  font-size: 14px;
+  margin: 0px 5px;
+}
+.namecard__pinktext {
+  font-size: 14px;
+  color: palevioletred;
+}

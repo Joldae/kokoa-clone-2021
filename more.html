@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More screen for Joldae's talk</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__columm">
+            <span>No Service</span>                
+            <i class="fas fa-wifi"></i> 
+            <!-- wi-fi icon -->
+        </div>
+        <div class="status-bar__columm">
+            <span>8:45</span> 
+        </div>
+        <div class="status-bar__columm">
+            <span>77%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <!-- Battert icon -->
+            <i class="fas fa-bolt"></i>
+            <!-- bolt icon -->
+        </div>
+    </div>    <!-- status-bar div -->
+
+    <!-- 상단 More 돋보기-설정 칸 -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span>
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+            <span>
+                <i class="fas fa-music fa-lg"></i>
+            </span>
+            <a href="settings.html">
+
+            <span class="cog-father">
+                <i class="fas fa-cog fa-lg"></i>
+                <span class="cog__dot"></span>
+            </span>
+        </a>
+        </div>
+    </header>
+    <!-- 상단 More 돋보기-설정 칸 -->
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+    </div>
+    <main class="more-screen">
+        <!-- 유저 콤포넌트 -->
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar user-component__avatar--me" 
+                src="/Users/kicklani/Desktop/WD/app_develop/kokoa-clone-2021/screenshots/masterpiece_by_minyong.jpeg" alt="">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Joldae</h4>
+                    <div id="div_caution">
+                        <h6 class="user-component__subtitle">+82 10-9160-1593
+                        </h6>
+                        <div id="caution">!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="fas fa-list fa-2x"></i>
+
+            </div>
+    
+        </div>
+<!-- 유저 콤포넌트 -->
+
+<!-- 아이콘들  -->
+<!-- 아이콘 첫번째 줄 -->
+    <div class="icon-row__div more-icon-row__div">
+        <span class="icon-row__column">
+            <i class="far fa-calendar-check fa-2x"></i>        
+            <span class="icon-row__bottom icon-row__for__more">Calender</span>    
+        </span>
+        <span class="icon-row__column">
+            <i class="far fa-hdd fa-2x"></i>             
+            <span class="icon-row__bottom icon-row__for__more">Talk Drive</span>  
+        </span>
+        <span class="icon-row__column">
+            <i class="far fa-smile-wink fa-2x"></i>
+            <span class="icon-row__bottom icon-row__for__more">Emoticons</span>  
+        </span>
+        <span class="icon-row__column">
+            <i class="far fa-snowflake fa-2x"></i>
+            <span class="icon-row__bottom icon-row__for__more">Themes</span>  
+        </span>
+    </div>
+    <!-- 아이콘 첫번째 줄 -->
+
+    <!-- 아이콘 두번째 줄 -->
+    <div class="icon-row__div more-icon-row__div more-icon-row__div__after__second">
+        <span class="icon-row__column">
+            <i class="far fa-calendar-check fa-2x"></i>        
+            <span class="icon-row__bottom icon-row__for__more">Calender</span>    
+        </span>
+        <span class="icon-row__column">
+            <i class="far fa-hdd fa-2x"></i>             
+            <span class="icon-row__bottom icon-row__for__more">Talk Drive</span>  
+        </span>
+        <span class="icon-row__column">
+            
+        </span>
+        <span class="icon-row__column">
+           
+        </span>
+    </div>
+        <!-- 아이콘 두번째 줄 -->
+<!-- 아이콘들 -->
+
+<div class="more-suggestions">
+    <h4 class="more-suggestions__title">
+        Suggestions
+    </h4>
+    <div class="more-suggestions__div">
+        <div class="more-suggestions__column">
+            <div class="more-suggestions__icon">
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="more-suggestions__text">
+                Joldae's Story
+            </div>
+        </div>
+<div class="more-suggestions__column">
+            <div class="more-suggestions__icon">
+
+            </div>
+            <div class="more-suggestions__text">
+                
+            </div>
+        </div>
+        <div class="more-suggestions__column">
+            <div class="more-suggestions__icon">
+
+            </div>
+            <div class="more-suggestions__text">
+                
+            </div>
+        </div>
+        <div class="more-suggestions__column">
+            <div class="more-suggestions__icon more-suggestions__icon__empty">
+
+            </div>
+            <div class="more-suggestions__text">
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification">3</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                                        <i class="fas fa-search fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+<script src="https://kit.fontawesome.com/3fa9ce1ab6.js" crossorigin="anonymous"></script>
+</body>
+</html>

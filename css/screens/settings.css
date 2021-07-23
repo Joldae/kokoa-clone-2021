@@ -1,0 +1,38 @@
+.screen-header__icons__settings .svg-inline--fa {
+  color: black;
+}
+.settings-screen {
+  margin: var(--horizontal-space);
+  margin-top: 0px;
+}
+
+.settings-screen-header__title {
+  font-size: 22px;
+}
+
+.settings-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings-div__column {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+}
+
+.settings-div__text {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.settings__gray {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.settings-div .svg-inline--fa {
+  color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,14 @@
+.cog-father {
+  position: relative;
+}
+.cog__dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -4px;
+  left: -3px;
+}

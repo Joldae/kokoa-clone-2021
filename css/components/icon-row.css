@@ -1,0 +1,48 @@
+.find-screen {
+  margin: var(--horizontal-space);
+  /* margin-top: 0px; */
+}
+.icon-row__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: rgba(0, 0, 0, 0.5);
+  height: 90px;
+  /* padding: 0px 20px; */
+}
+
+.icon-row__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.3s;
+  width: 65px;
+}
+
+.icon-row__column:hover {
+  color: indigo;
+}
+
+.icon-row__bottom {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 26px;
+}
+
+.svg-inline--fa {
+  color: var(--gray_for_text);
+  /* icon에 css를 줄때는 개발자모드로 들어가서 svg class에 띄어쓰기 안한 가장 앞에 
+    문구를 따오면 css가 적용된다. */
+}
+.icon-row__column__diftype {
+  margin-top: 16px;
+}
+/* .icon-row__column:nth-child(2) span {
+  margin-top: 16px;
+} */
+
+.icon-row__for__more {
+  margin-top: 16px;
+}

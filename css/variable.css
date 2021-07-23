@@ -2,4 +2,7 @@
   --yellow: #fae102;
   --blue: #4e72ab;
   --gray: #f9f9fa;
+  --horizontal-space: 20px;
+  --gray_for_text: rgba(0, 0, 0, 0.5);
+  --main-boreder: 1px solid rgba(0, 0, 0.3);
 }
